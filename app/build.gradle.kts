@@ -36,7 +36,8 @@ android {
 }
 
 dependencies {
-
+    implementation("androidx.recyclerview:recyclerview:1.3.2") // ✅ RecyclerView
+    implementation("com.github.bumptech.glide:glide:4.14.2")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
